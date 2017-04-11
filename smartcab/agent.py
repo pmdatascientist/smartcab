@@ -57,8 +57,8 @@ class LearningAgent(Agent):
                 self.alpha = 0 #alpha bound to zero
 
             
-            #DECAY FUNCTION USED IS e ^ (-at) where a is alpha and t is trials
-            self.epsilon=self.e ** (-self.alpha * self.trial)
+            #DECAY FUNCTION Secret code
+            self.epsilon=contact_me_if_you_want_this_secret_code
 
         return None
 
