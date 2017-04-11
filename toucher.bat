@@ -8,6 +8,9 @@ echo %yyyy%
 echo %todaysdate%
 SET todaysdate=%todaysdate% & ".txt"
 type nul > %todaysdate%
+date /t >> %todaysdate%
+date /t >> %todaysdate%
+date /t >> %todaysdate%
 git add .
 git commit -m %todaysdate%
 git push origin master
