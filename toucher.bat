@@ -10,3 +10,4 @@ SET todaysdate=%todaysdate% & ".txt"
 type nul > %todaysdate%
 git add .
 git commit -m %todaysdate%
+git push origin master
